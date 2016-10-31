@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="antarych.app.doubleadapter.MainActivity">
+
+    <ListView
+        android:padding="8dp"
+        android:id="@+id/lv_messages"
+        android:dividerHeight="8dp"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorLight"
+        android:layout_height="40dp">
+
+        <EditText
+            android:hint="@string/edit_text_hint"
+            android:id="@+id/et_message_text"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="40dp" />
+
+        <Button
+            android:text="@string/send_hint"
+            android:id="@+id/b_send"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

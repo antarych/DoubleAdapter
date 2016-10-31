@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DoubleAdapter</string>
+
+    <string name="edit_text_hint">Введите ваш текст</string>
+    <string name="send_hint">Отправить</string>
+</resources>
